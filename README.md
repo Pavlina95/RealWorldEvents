@@ -1,4 +1,4 @@
-# real-world-events
+# Real World Events (Vue)
 
 ## Project setup
 ```
