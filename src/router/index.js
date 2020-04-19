@@ -1,11 +1,11 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import EventShow from "../views/EventShow.vue";
-import EventList from "../views/EventList.vue";
-import EventCreate from "@/views/EventCreate.vue";
-import NotFound from "@/views/NotFound";
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import EventShow from '../views/EventShow.vue'
+import EventList from '../views/EventList.vue'
+import EventCreate from '@/views/EventCreate.vue'
+import NotFound from '@/views/NotFound'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
   {
@@ -28,11 +28,11 @@ const routes = [
     path: '*',
     component: NotFound
   }
-];
+]
 
 const router = new VueRouter({
   mode: 'history',
   routes
-});
+})
 
-export default router;
+export default router
